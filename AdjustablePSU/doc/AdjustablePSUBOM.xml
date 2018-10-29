@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/GB080220/workspace/circuits/FullWaveVoltageMultiplierPSU/AdjustablePSU/AdjustablePSU.sch</source>
+    <date>Monday, 29 October 2018 at 13:00:45</date>
+    <tool>Eeschema (5.0.0-3-g5ebb6b6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AdjustablePSU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J_PWR1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F2DC</tstamp>
+    </comp>
+    <comp ref="D_POS1">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-15_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F439</tstamp>
+    </comp>
+    <comp ref="D_NEG1">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-15_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F4A1</tstamp>
+    </comp>
+    <comp ref="C_POS1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F61B</tstamp>
+    </comp>
+    <comp ref="C_NEG1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F920</tstamp>
+    </comp>
+    <comp ref="C_POS2">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F9FB</tstamp>
+    </comp>
+    <comp ref="C_POS3">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8FA5D</tstamp>
+    </comp>
+    <comp ref="C_POS4">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8FA87</tstamp>
+    </comp>
+    <comp ref="C_NEG4">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8FDA3</tstamp>
+    </comp>
+    <comp ref="C_NEG3">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8FDA9</tstamp>
+    </comp>
+    <comp ref="C_NEG2">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8FDAF</tstamp>
+    </comp>
+    <comp ref="D_NEG2">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9334C</tstamp>
+    </comp>
+    <comp ref="D_POS2">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-15_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC933FA</tstamp>
+    </comp>
+    <comp ref="D_NEG3">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-15_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9E029</tstamp>
+    </comp>
+    <comp ref="C_NEG6">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCA81C0</tstamp>
+    </comp>
+    <comp ref="C_POS6">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCA8FFC</tstamp>
+    </comp>
+    <comp ref="D_POS3">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-15_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBCDCA</tstamp>
+    </comp>
+    <comp ref="J_OUT1">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD5B08</tstamp>
+    </comp>
+    <comp ref="R_POS1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF38D7E</tstamp>
+    </comp>
+    <comp ref="D_POS4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF38E0B</tstamp>
+    </comp>
+    <comp ref="R_NEG1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF710EE</tstamp>
+    </comp>
+    <comp ref="D_NEG4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF710F5</tstamp>
+    </comp>
+    <comp ref="U_POSREG1">
+      <value>LM317_3PinPackage</value>
+      <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM317_3PinPackage" description="1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD6D79C</tstamp>
+    </comp>
+    <comp ref="U_NEGREG1">
+      <value>LM337_TO220</value>
+      <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM337_TO220" description="Negative 1.5A 35V Adjustable Linear Regulator, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDE79C6</tstamp>
+    </comp>
+    <comp ref="R_POSREG1">
+      <value>120R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE1B756</tstamp>
+    </comp>
+    <comp ref="R_POSREG2">
+      <value>390R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE1B7CD</tstamp>
+    </comp>
+    <comp ref="R_NEGREG1">
+      <value>120R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE46566</tstamp>
+    </comp>
+    <comp ref="R_NEGREG2">
+      <value>390R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE4656C</tstamp>
+    </comp>
+    <comp ref="C_POS5">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD8B630</tstamp>
+    </comp>
+    <comp ref="C_NEG5">
+      <value>4700uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD8E55B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarised capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_3PinPackage">
+      <aliases>
+        <alias>AZ1117-ADJ</alias>
+      </aliases>
+      <description>1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_3PinPackage</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM337_TO220">
+      <aliases>
+        <alias>LT1033C</alias>
+        <alias>OM1323_TO220</alias>
+      </aliases>
+      <description>Negative 1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM337_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AC_IN">
+      <node ref="J_PWR1" pin="2"/>
+      <node ref="D_POS1" pin="2"/>
+      <node ref="D_NEG1" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C_NEG5" pin="1"/>
+      <node ref="C_NEG1" pin="2"/>
+      <node ref="C_POS2" pin="2"/>
+      <node ref="C_POS5" pin="2"/>
+      <node ref="C_POS3" pin="2"/>
+      <node ref="C_POS4" pin="2"/>
+      <node ref="C_NEG4" pin="1"/>
+      <node ref="C_NEG3" pin="1"/>
+      <node ref="C_NEG2" pin="1"/>
+      <node ref="C_POS1" pin="2"/>
+      <node ref="R_NEGREG2" pin="2"/>
+      <node ref="R_POSREG2" pin="2"/>
+      <node ref="D_NEG4" pin="2"/>
+      <node ref="D_POS4" pin="1"/>
+      <node ref="D_NEG3" pin="1"/>
+      <node ref="J_PWR1" pin="1"/>
+      <node ref="C_NEG6" pin="1"/>
+      <node ref="C_POS6" pin="2"/>
+      <node ref="D_POS3" pin="2"/>
+      <node ref="J_OUT1" pin="3"/>
+      <node ref="J_OUT1" pin="4"/>
+      <node ref="J_OUT1" pin="5"/>
+      <node ref="J_OUT1" pin="6"/>
+      <node ref="J_OUT1" pin="7"/>
+      <node ref="J_OUT1" pin="8"/>
+    </net>
+    <net code="3" name="Net-(D_POS4-Pad2)">
+      <node ref="D_POS4" pin="2"/>
+      <node ref="R_POS1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D_NEG4-Pad1)">
+      <node ref="D_NEG4" pin="1"/>
+      <node ref="R_NEG1" pin="2"/>
+    </net>
+    <net code="5" name="/12VDC_POS_REG">
+      <node ref="C_POS6" pin="1"/>
+      <node ref="D_POS2" pin="2"/>
+      <node ref="R_POS1" pin="1"/>
+      <node ref="D_POS3" pin="1"/>
+      <node ref="J_OUT1" pin="2"/>
+      <node ref="U_POSREG1" pin="2"/>
+      <node ref="J_OUT1" pin="1"/>
+      <node ref="R_POSREG1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R_POSREG1-Pad2)">
+      <node ref="U_POSREG1" pin="1"/>
+      <node ref="R_POSREG1" pin="2"/>
+      <node ref="R_POSREG2" pin="1"/>
+    </net>
+    <net code="7" name="/12VDC_NEG_REG">
+      <node ref="R_NEG1" pin="1"/>
+      <node ref="J_OUT1" pin="9"/>
+      <node ref="J_OUT1" pin="10"/>
+      <node ref="C_NEG6" pin="2"/>
+      <node ref="R_NEGREG1" pin="1"/>
+      <node ref="D_NEG3" pin="2"/>
+      <node ref="U_NEGREG1" pin="3"/>
+      <node ref="D_NEG2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R_NEGREG1-Pad2)">
+      <node ref="R_NEGREG1" pin="2"/>
+      <node ref="R_NEGREG2" pin="1"/>
+      <node ref="U_NEGREG1" pin="1"/>
+    </net>
+    <net code="9" name="/DC_POS_IN">
+      <node ref="C_POS2" pin="1"/>
+      <node ref="C_POS3" pin="1"/>
+      <node ref="C_POS5" pin="1"/>
+      <node ref="C_POS4" pin="1"/>
+      <node ref="C_POS1" pin="1"/>
+      <node ref="U_POSREG1" pin="3"/>
+      <node ref="D_POS1" pin="1"/>
+      <node ref="D_POS2" pin="1"/>
+    </net>
+    <net code="10" name="/DC_NEG_IN">
+      <node ref="C_NEG2" pin="2"/>
+      <node ref="C_NEG3" pin="2"/>
+      <node ref="C_NEG4" pin="2"/>
+      <node ref="D_NEG2" pin="2"/>
+      <node ref="C_NEG1" pin="1"/>
+      <node ref="C_NEG5" pin="2"/>
+      <node ref="D_NEG1" pin="2"/>
+      <node ref="U_NEGREG1" pin="2"/>
+    </net>
+  </nets>
+</export>
