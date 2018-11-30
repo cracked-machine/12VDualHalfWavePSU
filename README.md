@@ -1,6 +1,6 @@
 # Full-Wave Voltage Multiplier power supplies
 
-![MainPhoto](AdjustablePSU/doc/AdjustablePSU_Assembled.jpg | height = 50px)
+<img src="AdjustablePSU/doc/AdjustablePSU_Assembled.jpg" align="left" height="48" width="48" >
 
 This page contains a design for a bipolar (split +/- voltage rail) linear power supply. It uses variable linear regulators so the output voltage can be set by changing 4 of the resistors:
 
