@@ -1,10 +1,10 @@
 
-## Programmable dual linear power supply
+## Bipolar Linear PSU
 
 <img src="AdjustablePSU/doc/AdjustablePSU3D.png" height="300" width="600" >
 
 N.B. *PSU* refers to this PCB circuit, *Wall Adaptor* refers to the AC-AC plug-in wall adaptor.
-If not explicitly stated the example of a 12V @ 1.5A PSU output using a 15VAC 3A wall adaptor will be used.
+If not explicitly stated the example - 12V @ 1.5A PSU output from a 15VAC 3A wall adaptor - will be used.
 
 ### Some notes regarding safety
 
@@ -70,16 +70,15 @@ PSU Output Current |  Joint Heatsink  | Two Heatsinks (per heatsink)
 |400mA             |92K/W             |46K/W
 |750mA             |45K/W             |22K/W
 |1A                |30K/W             |15K/W
-|2A                |12K\W             |6K/W
+|1.5A              |20K/W             |10K/W
+|2A                |12K/W             |6K/W
 
 
-Also, bear in mind the PCB has max space for ~50mm width. 
+The PCB has max space for ~50mm width.  Screwholes are M3. 
 
-Screwholes are M3. 
-
-I would suggest these clip-type heatsinks that can be used by both regulators:
+My preference are these clip-type heatsinks that can be used by both regulators:
 
 - [SK 574/37,5 SA](https://uk.rs-online.com/web/p/heatsinks/7226906/) - Shorter but extends beyond PCB footprint
 - [SK 575/50 SA](https://uk.rs-online.com/web/p/heatsinks/7226864/)   - Taller but fits within the PCB footprint
 
-The heatsink will get pretty hot at 1.5A output but the regulators should remain below 70˚C.
+
