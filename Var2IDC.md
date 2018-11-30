@@ -15,7 +15,7 @@ This is limited by
 The output voltage can be set by changing the four resistors marked on the back of the PCB.
 
 R1     | R2     | Output Voltage  | Min. Filter Cap Rating
------------:|------------:|---------------:| 
+-----------:    |------------:    |--------------- 
 120R   |390R    | +/- 5V  | 8V
 120R   |750R    | +/- 9V  | 16V
 120R   |1K1     | +/-12V  | 20V
