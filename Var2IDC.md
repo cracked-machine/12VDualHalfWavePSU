@@ -34,7 +34,7 @@ Per rail ripple current is proportional to the sum of the four capacitors. There
 
 Here is a lookup table showing the *individual* capacitor values for corresponding output ripple:
 
-Total Current|&nbsp;|Ripple|Each Cap|&nbsp;|Ripple|Each Cap|&nbsp;|Ripple|Each Cap|
+Total Current|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&nbsp;&nbsp;|Ripple|Each Cap|
 |:------------|------|:----:|:------:|--:|:----:|:--------------:|:--:|:----:|:--------------:|
 50mA         |       |0.5Vpp|120uF|   |0.3Vpp|220uF|   |0.1Vpp|680uF|
 100mA        |       |0.5Vpp|220uF|   |0.3Vpp|470uF|   |0.1Vpp|1200uF|
