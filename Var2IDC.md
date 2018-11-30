@@ -30,9 +30,9 @@ R1     | R2     | Output Voltage  | Min. Filter Cap Rating
 
 ### Selecting filter capacitor values
 
-The 16mm diameter electrlytic capacitors filter noise and ripple from the main supply. There are four filter capacitors per rail, eight in total.
+The 16mm diameter electrlytic capacitors filter noise and ripple from the main supply. There are four filter capacitors per power rail, eight in total.
 
-Per rail ripple current is proportional to the sum of the four capacitors. Therefore, if you have lower current requirements you can select lower capacitor values without sacrificing acceptable filtering. Use the tables below to select the capacitor values. Note these have been rounded to common E12/E24 values to ease sourcing and lower cost.
+The ripple current for each power rail is proportional to the sum of its four capacitors. Therefore, if you have lower current requirements you can select lower capacitor values without sacrificing acceptable filtering. Use the tables below to select the capacitor values. Note, for practical reasons, these have been rounded to common E12/E24 values.
 
 The table below shows *individual* capacitor values for corresponding output ripple:
 
@@ -55,7 +55,7 @@ As mentioned this PSU uses low voltage AC, so you will need a AC-AC wall adaptor
 
 You can also try Ebay, etc.
 
-To allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor voltage output should be slightly above your requirements. The wall adaptor current output *must* be double (+/- rails)
+To allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor voltage output should be slightly above the voltage needed. The wall adaptor current output *must* be double (+/- rails) the current needed.
 
 ### Heatsinks
 
