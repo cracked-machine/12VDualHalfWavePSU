@@ -3,6 +3,9 @@
 
 <img src="AdjustablePSU/doc/AdjustablePSU3D.png" height="300" width="600" >
 
+*PSU* refers to this PCB circuit, *Wall Adaptor* refers to the AC-AC plug-in wall adaptor.
+If not explicitly stated the example of a 12V @ 1.5A PSU output using a 15VAC 3A wall adaptor will be used.
+
 ### Some notes regarding safety
 
 Unless you want to make power supply go bye-bye here are some important notes. *I accept no responsibility for damage to equipment, loss of limbs, etc..*
@@ -53,19 +56,19 @@ As mentioned this PSU uses low voltage AC, so you will need a AC-AC wall adaptor
 
 To allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor voltage output should be slightly above your requirements. The wall adaptor current output *must* be double (+/- rails)
 
-E.g. 12V @ 1.5A output requires 15VAC 3A wall adaptor.
-
 ### Heatsinks
 
 The regulators *will* need a heatsink or they will shutdown before they can output any siginificant current.
 
 This PSU is designed to be used with Fischer Elektronic heatsinks, but any heatsink below the following will meet disipation requirements up to 1.5 amps.
 
-- 10K/W thermal resistance for both regulators
-- 5K/W thermal resitance for inidvidual regulators
+The numbers below assume a 3 volt drop ( 12V output using a 15VAC wall adaptor ) and are for guidance only:
 
 PSU Output Current |  Joint Heatsink  | Two Heatsinks (per heatsink)
-|:-----------------|:----------------:|-----------------------------|
+|:-----------------|:----------------:|:---------------------------:|
+|400mA             |92K/W             |46K/W
+|750mA             |45K/W             |22K/W
+|1A                |30K/W             |15K/W
 |2A                |12K\W             |6K/W
 
 
