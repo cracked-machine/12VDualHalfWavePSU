@@ -11,9 +11,10 @@ A heatsink is also required.
 
 Since the PSU has only two IDC outputs, there is also an extension board available.
 
+<BR>
 Both are suitable for use with modular synths systems or as standalone fixed power supplies.
 
-<BR><BR>
+
 
 - [Bipolar Linear PSU](Var2IDC.md)
 
