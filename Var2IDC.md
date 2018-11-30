@@ -51,7 +51,9 @@ Total Current|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&n
 
 As mentioned this PSU uses low voltage AC, so you will need a AC-AC wall adaptor. This is essentially a step down transformer with (hopefully) a fuse. Here is a well-stocked UK supplier.
 
-[www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) .... you can also try Ebay, etc.
+[www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) 
+
+You can also try Ebay, etc.
 
 To allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor voltage output should be slightly above your requirements. The wall adaptor current output *must* be double (+/- rails)
 
@@ -77,7 +79,7 @@ Screwholes are M3.
 
 I would suggest these clip-type heatsinks that can be used by both regulators:
 
-[SK 574/37,5 SA](https://uk.rs-online.com/web/p/heatsinks/7226906/) - Shorter but extends beyond PCB footprint
-[SK 575/50 SA](https://uk.rs-online.com/web/p/heatsinks/7226864/)   - Taller but fits within the PCB footprint
+- [SK 574/37,5 SA](https://uk.rs-online.com/web/p/heatsinks/7226906/) - Shorter but extends beyond PCB footprint
+- [SK 575/50 SA](https://uk.rs-online.com/web/p/heatsinks/7226864/)   - Taller but fits within the PCB footprint
 
 The heatsink will get pretty hot at 1.5A output but the regulators should remain below 70˚C.
