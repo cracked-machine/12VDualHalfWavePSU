@@ -5,13 +5,13 @@
 
 ### Some notes regarding safety
 
-Unless you want to make power supply go bye-bye here are some important notes:
+Unless you want to make power supply go bye-bye here are some important notes. I accept no responsibility for damage to equipment, loss of limbs, etc..
 
 1) Max output current is limited to 
   a) the AC-AC wall adaptor output 
   b) the current limit of the diodes 
   c) the current limit of the regulators.
-2) The input current from the AC-AC wall adaptor must not exceed the voltage rating of the capacitors.
+2) The input current from the AC-AC wall adaptor must *not* exceed max 80% of the voltage rating of the capacitors. 
 3) Polaritys of these components *must* be observed or things will explode.
 
 ### Adjusting output voltage
