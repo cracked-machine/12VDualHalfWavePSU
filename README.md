@@ -7,7 +7,7 @@ This page contains a design for a bipolar (split +/- voltage rail) linear power 
 
 This design omits the transformer usually found in traditional linear PSU designs. This removes the danger of exposing yourself to lives 240VAC mains. Instead it runs from an AC-AC wall adaptor. *It will not work with an AD-DC wall adpator!*
 
-A heatsink is also required. 
+A heatsink is also required. The size can vary depending on the current required.
 
 Since the PSU has only two IDC outputs, there is also an extension board available.
 
