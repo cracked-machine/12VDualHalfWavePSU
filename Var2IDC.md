@@ -32,34 +32,17 @@ The 16mm diameter electrlytic capacitors filter noise and ripple from the main s
 
 Per rail ripple current is proportional to the sum of the four capacitors. Therefore, if you have lower current requirements you can select lower capacitor values without sacrificing acceptable filtering. Use the tables below to select the capacitor values. Note these have been rounded to common E12/E24 values to ease sourcing and lower cost.
 
-Here is a lookup table showing the *individual* capacitor values for corresponding output ripple and total PSU current
+Here is a lookup table showing the *individual* capacitor values for corresponding output ripple:
 
 Total Current|       |Ripple|Each Cap|   |Ripple|Each Cap|   |Ripple|Each Cap|
 |:------------|------|:----:|:------:|--:|:----:|:--------------:|:--:|:----:|:--------------:|
-50mA         |       |0.5Vpp|120uF|   |0.3Vpp|220uF|   |0.1Vpp|680uF|
+50mA         |&nbsp;       |0.5Vpp|120uF|   |0.3Vpp|220uF|   |0.1Vpp|680uF|
 100mA        |       |0.5Vpp|220uF|   |0.3Vpp|470uF|   |0.1Vpp|1200uF|
 250mA        |       |0.5Vpp|560uF|   |0.3Vpp|1200uF|   |0.1Vpp|3300uF|
 500mA        |       |0.5Vpp|1200uF|   |0.3Vpp|2200uF|   |0.1Vpp|6800uF|
 1A           |       |0.5Vpp|2700uF|   |0.3Vpp|3900uF|   |0.1Vpp|120mF|
 1.5A         |       |0.5Vpp|3900uF|   |0.3Vpp|5600uF|   |0.1Vpp|240mF|
 
-*Capcaitors must not exceed their voltage rating! See 'Adjusting output voltage' section above.*
-
-Total Current   | Farads per cap  | Ripple
----------:|----------------:|-------:
-50mA      |  220uF          | 0.3Vpp
-100mA     |  470uF         | 0.3Vpp
-250mA     |  1200uF         | 0.3Vpp  
-500mA     |  2200uF         | 0.3Vpp
-1A        |  3900uF       | 0.3Vpp
-1.5A      |  5600uF       | 0.3Vpp
+*Capacitors must not exceed their voltage rating! See safety section above.*
 
 
-Total Current   | Farads per cap  | Ripple
----------:|----------------:|-------:
-50mA      |  680uF          | 0.1Vpp
-100mA     |  1200uF         | 0.1Vpp
-250mA     |  3300uF         | 0.1Vpp  
-500mA     |  6800uF         | 0.1Vpp
-1A        |  120mF       | 0.1Vpp
-1.5A      |  240mF       | 0.1Vpp
