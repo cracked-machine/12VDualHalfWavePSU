@@ -67,7 +67,7 @@ This PSU is designed to be used with Fischer Elektronic heatsinks, but any heats
 
 The numbers below assume a 3 volt drop ( 12V output using a 15VAC wall adaptor ) and are for guidance only:
 
-PSU Output Current |  Joint Heatsink  | Two Heatsinks (per heatsink)
+PSU Output Current |  Joint Heatsink  | Two Heatsinks (one per regulator)
 |:-----------------|:----------------:|:---------------------------:|
 |400mA             |92K/W             |46K/W
 |750mA             |45K/W             |22K/W
