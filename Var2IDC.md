@@ -10,11 +10,11 @@ If not explicitly stated the example - 12V @ 1.5A PSU output from a 15VAC 3A wal
 
 Unless you want to make the circuit go bye-bye here are some important notes. *I accept no responsibility for damage to equipment, heightened pulse rate, loss of limbs, etc..*
 
-1) Max output current is limited to *a)* the AC-AC wall adaptor output *b)* the current limit of the diodes *c)* the current limit of the regulators.
+1) Total max output current is limited to *a)* the wall adaptor output divided by two *b)* the individual current limit of the diodes *c)* the individual current limit of the regulators.
 
-2) The input current from the AC-AC wall adaptor must *not* exceed max 80% of the voltage rating of the capacitors. 
+2) The input current from the wall adaptor must *not* exceed absolute max 80% of the voltage rating of the capacitors. 
 
-3) Polaritys of these components *must* be observed or things will explode.
+3) Polarity of these components *must* be observed or things will explode.
 
 ### Adjusting output voltage
 
