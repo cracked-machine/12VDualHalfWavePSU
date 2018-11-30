@@ -5,7 +5,7 @@
 
 ### Some notes regarding safety
 
-Unless you want to make power supply go bye-bye here are some important notes. **I accept no responsibility for damage to equipment, loss of limbs, etc..
+Unless you want to make power supply go bye-bye here are some important notes. *I accept no responsibility for damage to equipment, loss of limbs, etc..*
 
 1) Max output current is limited to 
   a) the AC-AC wall adaptor output 
