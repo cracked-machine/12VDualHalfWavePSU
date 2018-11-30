@@ -28,11 +28,11 @@ R1     | R2     | Output Voltage  | Min. Filter Cap Rating
 
 ### Selecting filter capacitor values
 
-The 16mm diameter electrlytic capacitors filter noise and ripple from the main supply. There are four per rail, eight in total.
+The 16mm diameter electrlytic capacitors filter noise and ripple from the main supply. There are four filter capacitors per rail, eight in total.
 
 Per rail ripple current is proportional to the sum of the four capacitors. Therefore, if you have lower current requirements you can select lower capacitor values without sacrificing acceptable filtering. Use the tables below to select the capacitor values. Note these have been rounded to common E12/E24 values to ease sourcing and lower cost.
 
-Here is a lookup table showing the *individual* capacitor values for corresponding output ripple:
+The table below shows *individual* capacitor values for corresponding output ripple:
 
 Total Current|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&nbsp;&nbsp;|Ripple|Each Cap|
 |:------------|------|:----:|:------:|--:|:----:|:--------------:|:--:|:----:|:--------------:|
@@ -45,4 +45,37 @@ Total Current|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&n
 
 *Capacitors must not exceed their voltage rating! See safety section above.*
 
+### AC-AC Wall Adaptor
 
+As mentioned this PSU uses low voltage AC, so you will need a AC-AC wall adaptor. This is essentially a step down transformer with (hopefully) a fuse. Here is a well-stocked UK supplier.
+
+[www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) .... you can also try Ebay, etc.
+
+To allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor voltage output should be slightly above your requirements. The wall adaptor current output *must* be double (+/- rails)
+
+E.g. 12V @ 1.5A output requires 15VAC 3A wall adaptor.
+
+### Heatsinks
+
+The regulators *will* need a heatsink or they will shutdown before they can output any siginificant current.
+
+This PSU is designed to be used with Fischer Elektronic heatsinks, but any heatsink below the following will meet disipation requirements up to 1.5 amps.
+
+- 10K/W thermal resistance for both regulators
+- 5K/W thermal resitance for inidvidual regulators
+
+PSU Output Current |  Joint Heatsink  | Two Heatsinks (per heatsink)
+|:-----------------|:----------------:|-----------------------------|
+|2A                |12K\W             |6K/W
+
+
+Also, bear in mind the PCB has max space for ~50mm width. 
+
+Screwholes are M3. 
+
+I would suggest these clip-type heatsinks that can be used by both regulators:
+
+[SK 574/37,5 SA](https://uk.rs-online.com/web/p/heatsinks/7226906/) - Shorter but extends beyond PCB footprint
+[SK 575/50 SA](https://uk.rs-online.com/web/p/heatsinks/7226864/)   - Taller but fits within the PCB footprint
+
+The heatsink will get pretty hot at 1.5A output but the regulators should remain below 70˚C.
