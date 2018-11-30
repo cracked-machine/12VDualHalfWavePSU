@@ -35,7 +35,7 @@ Per rail ripple current is proportional to the sum of the four capacitors. There
 Here is a lookup table showing the *individual* capacitor values for corresponding output ripple and total PSU current
 
 Total Current|       |Ripple|Each Cap|   |Ripple|Each Cap|   |Ripple|Each Cap|
-------------:|-------:|----:|-------:|--:|----:|--------------:|--:|----:|--------------:|
+|:------------|------|:----:|:------:|--:|:----:|:--------------:|:--:|:----:|:--------------:|
 50mA         |       |0.5Vpp|120uF|   |0.3Vpp|220uF|   |0.1Vpp|680uF|
 100mA        |       |0.5Vpp|220uF|   |0.3Vpp|470uF|   |0.1Vpp|1200uF|
 250mA        |       |0.5Vpp|560uF|   |0.3Vpp|1200uF|   |0.1Vpp|3300uF|
