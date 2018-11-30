@@ -2,4 +2,4 @@
 
 - Supports 10-pin IDC connectors for +/- rails (and ground)
 
-![IDC 10 cable exte
+![IDC 10 cable extension](PSUExtensionBoard/doc/PSUExtensionBoard3D.png)
