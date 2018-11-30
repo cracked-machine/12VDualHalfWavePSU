@@ -3,12 +3,16 @@
 
 <img src="AdjustablePSU/doc/AdjustablePSU3D.png" height="300" width="600" >
 
-### Max output current
+### Some notes regarding safety
 
-This is limited by 
+Unless you want to make power supply go bye-bye here are some important notes:
 
-- The output current AC-AC plug pack wall adaptor
-- The current ratings of the diodes/regulators.
+1) Max output current is limited to 
+  a) the AC-AC wall adaptor output 
+  b) the current limit of the diodes 
+  c) the current limit of the regulators.
+2) The input current from the AC-AC wall adaptor must not exceed the voltage rating of the capacitors.
+3) Polaritys of these components *must* be observed or things will explode.
 
 ### Adjusting output voltage
 
