@@ -14,9 +14,9 @@ Since the board above only contains two IDC outputs, there is also an extension 
 
 Both are suitable for use with modular synths systems or as standalone fixed power supplies.
 
-<BR>
+<BR align=right>
 
-[Bipolar Linear PSU](Var2IDC.md)
+- [Bipolar Linear PSU](Var2IDC.md)
 
-[Extension board IDCx10](Ext10IDC.md)
+- [Extension board IDCx10](Ext10IDC.md)
 
