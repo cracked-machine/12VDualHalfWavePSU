@@ -1,7 +1,7 @@
 
 ## Programmable dual linear power supply
 
-<img src="AdjustablePSU/doc/AdjustablePSU3D.png" height="480" width="480" >
+<img src="AdjustablePSU/doc/AdjustablePSU3D.png" height="300" width="600" >
 
 The output voltage can be set by changing the four resistors marked on the back of the PCB.
 
