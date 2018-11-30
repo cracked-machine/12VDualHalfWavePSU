@@ -1,5 +1,5 @@
 
-<center>
+<div align="center">
 
 ## Programmable dual linear power supply
 
@@ -16,4 +16,4 @@ R1     | R2     | Output Voltage
 120R   |2K2     | +/-24V
 
 
-</center>
+</div>
