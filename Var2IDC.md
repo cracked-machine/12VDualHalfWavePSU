@@ -26,7 +26,7 @@ R1     | R2     | Output Voltage  | Min. Filter Cap Rating
 
 The 16mm diameter electrlytic capacitors filter noise and ripple from the main supply. There are four per rail, eight in total.
 
-Per rail ripple current is proportional to the sum of the four capacitors. Therefore, if you have lower current requirements you can select lower capacitor values without sacrificing acceptable filtering.
+Per rail ripple current is proportional to the sum of the four capacitors. Therefore, if you have lower current requirements you can select lower capacitor values without sacrificing acceptable filtering. Use the tables below to select the capacitor values. Note these have been rounded to common E12/E24 values to ease sourcing and lower cost.
 
 *Capcaitors must not exceed their voltage rating! See 'Adjusting output voltage' section above.*
 
@@ -55,5 +55,5 @@ Total Current   | Farads per cap  | Ripple
 100mA     |  1200uF         | 0.1Vpp
 250mA     |  3300uF         | 0.1Vpp  
 500mA     |  6800uF         | 0.1Vpp
-1A        |  120000uF       | 0.1Vpp
-1.5A      |  240000uF       | 0.1Vpp
+1A        |  120mF       | 0.1Vpp
+1.5A      |  240mF       | 0.1Vpp
