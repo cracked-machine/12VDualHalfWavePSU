@@ -7,5 +7,5 @@
 [Programmable dual linear power supply](Var2IDC.md)
 
 
-[x10 extension board](Ext10IDC.md)
+[Extension board IDCx10](Ext10IDC.md)
 
