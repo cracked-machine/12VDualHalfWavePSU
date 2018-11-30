@@ -28,7 +28,7 @@ R1     | R2     | Output Voltage  | Min. Filter Cap Rating
 150R   |2K      | +/-18V  | 32V
 120R   |2K2     | +/-24V  | 35V
 
-The above tablen is printed - and the specific resistors are highlighted - on the reverse of the PCB. 
+The above table is printed - and the specific resistors are highlighted - on the reverse of the PCB. 
 
 ### Selecting filter capacitor values
 
