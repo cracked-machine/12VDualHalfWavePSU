@@ -34,14 +34,14 @@ Per rail ripple current is proportional to the sum of the four capacitors. There
 
 *Capcaitors must not exceed their voltage rating! See 'Adjusting output voltage' section above.*
 
-Total Current   | Farads per cap  | Ripple
----------:|----------------:|-------:
-50mA      |  120uF          | 0.5Vpp
-100mA     |  220uF         | 0.5Vpp
-250mA     |  560uF         | 0.5Vpp  
-500mA     |  1200uF         | 0.5Vpp
-1A        |  2700uF       | 0.5Vpp
-1.5A      |  3900uF       | 0.5Vpp
+Total Current   |  | Ripple | Farads per cap
+---------:|--|:----------------:|-------:
+50mA      | | 0.5Vpp | 120uF
+100mA     | | 0.5Vpp | 220uF
+250mA     | | 0.5Vpp | 560uF
+500mA     | | 0.5Vpp | 1200uF
+1A        | | 0.5Vpp | 2700uF
+1.5A      | | 0.5Vpp | 3900uF
 
 Total Current   | Farads per cap  | Ripple
 ---------:|----------------:|-------:
