@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 ,1,"220nF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+C2 ,1,"100nF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+D_5VPP1 D_NEG1 D_POS1 ,3,"LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+J_IN1 ,1,"Conn_02x05_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical","~"
+J_OUT1 J_OUT2 J_OUT3 J_OUT4 J_OUT5 J_OUT6 J_OUT7 J_OUT8 ,8,"Conn_02x08_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical","~"
+R_5VPP1 R_NEG1 R_POS1 ,3,"2K7","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+U_REG1 ,1,"L7805","Package_TO_SOT_SMD:TO-263-3_TabPin2","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"

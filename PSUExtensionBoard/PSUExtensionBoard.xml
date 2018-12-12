@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/GB080220/workspace/circuits/FullWaveVoltageMultiplierPSU/PSUExtensionBoard/PSUExtensionBoard.sch</source>
+    <date>Wednesday, 12 December 2018 at 01:24:44</date>
+    <tool>Eeschema (5.0.0-3-g5ebb6b6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PSUExtensionBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J_IN1">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD5B08</tstamp>
+    </comp>
+    <comp ref="D_POS1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD9F27A</tstamp>
+    </comp>
+    <comp ref="D_NEG1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD9F2C9</tstamp>
+    </comp>
+    <comp ref="R_NEG1">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD9F333</tstamp>
+    </comp>
+    <comp ref="R_POS1">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD9F36E</tstamp>
+    </comp>
+    <comp ref="J_OUT1">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C10B077</tstamp>
+    </comp>
+    <comp ref="J_OUT2">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C30D2B3</tstamp>
+    </comp>
+    <comp ref="J_OUT3">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3485DF</tstamp>
+    </comp>
+    <comp ref="J_OUT4">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C348627</tstamp>
+    </comp>
+    <comp ref="J_OUT5">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C34866C</tstamp>
+    </comp>
+    <comp ref="J_OUT6">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C348743</tstamp>
+    </comp>
+    <comp ref="J_OUT7">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C348824</tstamp>
+    </comp>
+    <comp ref="J_OUT8">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C348932</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C587E40</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C587EEA</tstamp>
+    </comp>
+    <comp ref="U_REG1">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C59EBFB</tstamp>
+    </comp>
+    <comp ref="R_5VPP1">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C73C3F5</tstamp>
+    </comp>
+    <comp ref="D_5VPP1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C75266F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J_IN1" pin="3"/>
+      <node ref="J_IN1" pin="4"/>
+      <node ref="J_IN1" pin="5"/>
+      <node ref="J_IN1" pin="6"/>
+      <node ref="J_IN1" pin="7"/>
+      <node ref="J_IN1" pin="8"/>
+      <node ref="D_5VPP1" pin="1"/>
+      <node ref="J_OUT4" pin="9"/>
+      <node ref="J_OUT5" pin="10"/>
+      <node ref="J_OUT5" pin="11"/>
+      <node ref="J_OUT4" pin="14"/>
+      <node ref="J_OUT4" pin="13"/>
+      <node ref="J_OUT4" pin="12"/>
+      <node ref="J_OUT4" pin="11"/>
+      <node ref="J_OUT4" pin="10"/>
+      <node ref="J_OUT3" pin="9"/>
+      <node ref="J_OUT5" pin="12"/>
+      <node ref="J_OUT5" pin="13"/>
+      <node ref="J_OUT5" pin="14"/>
+      <node ref="J_OUT3" pin="14"/>
+      <node ref="J_OUT3" pin="13"/>
+      <node ref="J_OUT3" pin="12"/>
+      <node ref="J_OUT3" pin="11"/>
+      <node ref="J_OUT3" pin="10"/>
+      <node ref="J_OUT2" pin="9"/>
+      <node ref="J_OUT5" pin="9"/>
+      <node ref="J_OUT6" pin="10"/>
+      <node ref="J_OUT6" pin="11"/>
+      <node ref="J_OUT6" pin="12"/>
+      <node ref="U_REG1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D_POS1" pin="1"/>
+      <node ref="J_OUT6" pin="13"/>
+      <node ref="J_OUT2" pin="14"/>
+      <node ref="D_NEG1" pin="2"/>
+      <node ref="J_OUT2" pin="13"/>
+      <node ref="J_OUT2" pin="12"/>
+      <node ref="J_OUT2" pin="11"/>
+      <node ref="J_OUT2" pin="10"/>
+      <node ref="J_OUT6" pin="14"/>
+      <node ref="J_OUT6" pin="9"/>
+      <node ref="J_OUT7" pin="10"/>
+      <node ref="J_OUT7" pin="11"/>
+      <node ref="J_OUT1" pin="9"/>
+      <node ref="J_OUT7" pin="12"/>
+      <node ref="J_OUT7" pin="13"/>
+      <node ref="J_OUT7" pin="14"/>
+      <node ref="J_OUT1" pin="14"/>
+      <node ref="J_OUT1" pin="13"/>
+      <node ref="J_OUT1" pin="12"/>
+      <node ref="J_OUT1" pin="11"/>
+      <node ref="J_OUT1" pin="10"/>
+      <node ref="J_OUT8" pin="9"/>
+      <node ref="J_OUT7" pin="9"/>
+      <node ref="J_OUT8" pin="14"/>
+      <node ref="J_OUT8" pin="13"/>
+      <node ref="J_OUT8" pin="12"/>
+      <node ref="J_OUT8" pin="11"/>
+      <node ref="J_OUT8" pin="10"/>
+    </net>
+    <net code="2" name="Net-(D_NEG1-Pad1)">
+      <node ref="D_NEG1" pin="1"/>
+      <node ref="R_NEG1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D_POS1-Pad2)">
+      <node ref="D_POS1" pin="2"/>
+      <node ref="R_POS1" pin="2"/>
+    </net>
+    <net code="4" name="/GATE">
+      <node ref="J_OUT2" pin="2"/>
+      <node ref="J_OUT5" pin="1"/>
+      <node ref="J_OUT4" pin="2"/>
+      <node ref="J_OUT1" pin="2"/>
+      <node ref="J_OUT7" pin="2"/>
+      <node ref="J_OUT7" pin="1"/>
+      <node ref="J_OUT4" pin="1"/>
+      <node ref="J_OUT5" pin="2"/>
+      <node ref="J_OUT6" pin="2"/>
+      <node ref="J_OUT2" pin="1"/>
+      <node ref="J_OUT1" pin="1"/>
+      <node ref="J_OUT3" pin="2"/>
+      <node ref="J_OUT3" pin="1"/>
+      <node ref="J_OUT8" pin="2"/>
+      <node ref="J_OUT8" pin="1"/>
+      <node ref="J_OUT6" pin="1"/>
+    </net>
+    <net code="5" name="/CV">
+      <node ref="J_OUT2" pin="4"/>
+      <node ref="J_OUT2" pin="3"/>
+      <node ref="J_OUT8" pin="3"/>
+      <node ref="J_OUT5" pin="4"/>
+      <node ref="J_OUT5" pin="3"/>
+      <node ref="J_OUT8" pin="4"/>
+      <node ref="J_OUT3" pin="3"/>
+      <node ref="J_OUT3" pin="4"/>
+      <node ref="J_OUT6" pin="3"/>
+      <node ref="J_OUT6" pin="4"/>
+      <node ref="J_OUT1" pin="4"/>
+      <node ref="J_OUT1" pin="3"/>
+      <node ref="J_OUT7" pin="3"/>
+      <node ref="J_OUT7" pin="4"/>
+      <node ref="J_OUT4" pin="3"/>
+      <node ref="J_OUT4" pin="4"/>
+    </net>
+    <net code="6" name="/12V">
+      <node ref="J_OUT4" pin="7"/>
+      <node ref="J_OUT4" pin="8"/>
+      <node ref="J_IN1" pin="2"/>
+      <node ref="J_OUT3" pin="8"/>
+      <node ref="J_OUT3" pin="7"/>
+      <node ref="J_OUT5" pin="7"/>
+      <node ref="J_OUT5" pin="8"/>
+      <node ref="J_OUT2" pin="8"/>
+      <node ref="J_OUT2" pin="7"/>
+      <node ref="J_OUT6" pin="7"/>
+      <node ref="J_OUT6" pin="8"/>
+      <node ref="J_IN1" pin="1"/>
+      <node ref="J_OUT1" pin="8"/>
+      <node ref="J_OUT1" pin="7"/>
+      <node ref="U_REG1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R_POS1" pin="1"/>
+      <node ref="J_OUT8" pin="8"/>
+      <node ref="J_OUT8" pin="7"/>
+      <node ref="J_OUT7" pin="8"/>
+      <node ref="J_OUT7" pin="7"/>
+    </net>
+    <net code="7" name="/-12V">
+      <node ref="J_OUT6" pin="16"/>
+      <node ref="J_IN1" pin="10"/>
+      <node ref="J_OUT8" pin="15"/>
+      <node ref="J_OUT8" pin="16"/>
+      <node ref="J_IN1" pin="9"/>
+      <node ref="J_OUT1" pin="15"/>
+      <node ref="J_OUT1" pin="16"/>
+      <node ref="R_NEG1" pin="2"/>
+      <node ref="J_OUT7" pin="16"/>
+      <node ref="J_OUT7" pin="15"/>
+      <node ref="J_OUT6" pin="15"/>
+      <node ref="J_OUT2" pin="15"/>
+      <node ref="J_OUT2" pin="16"/>
+      <node ref="J_OUT4" pin="16"/>
+      <node ref="J_OUT3" pin="15"/>
+      <node ref="J_OUT3" pin="16"/>
+      <node ref="J_OUT4" pin="15"/>
+      <node ref="J_OUT5" pin="16"/>
+      <node ref="J_OUT5" pin="15"/>
+    </net>
+    <net code="8" name="/5V">
+      <node ref="J_OUT3" pin="6"/>
+      <node ref="J_OUT3" pin="5"/>
+      <node ref="J_OUT5" pin="5"/>
+      <node ref="J_OUT5" pin="6"/>
+      <node ref="J_OUT2" pin="6"/>
+      <node ref="J_OUT2" pin="5"/>
+      <node ref="J_OUT7" pin="6"/>
+      <node ref="J_OUT6" pin="5"/>
+      <node ref="J_OUT6" pin="6"/>
+      <node ref="U_REG1" pin="3"/>
+      <node ref="J_OUT1" pin="6"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J_OUT1" pin="5"/>
+      <node ref="J_OUT4" pin="6"/>
+      <node ref="R_5VPP1" pin="2"/>
+      <node ref="J_OUT8" pin="6"/>
+      <node ref="J_OUT7" pin="5"/>
+      <node ref="J_OUT4" pin="5"/>
+      <node ref="J_OUT8" pin="5"/>
+    </net>
+    <net code="9" name="Net-(D_5VPP1-Pad2)">
+      <node ref="D_5VPP1" pin="2"/>
+      <node ref="R_5VPP1" pin="1"/>
+    </net>
+  </nets>
+</export>
