@@ -24,13 +24,13 @@ You can also try Ebay, etc.
 
 While we must allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor is outputing peak-to-peak AC voltage into the PSU circuit. Therefore the actual regulated output voltage of the PSU circuit is Vrms (Vp-p * 1.414), not Vp-p. Therefore, rather than use a 15V wall adaptor (to allow for voltage dropout issues), we can use a 12Vac wall adaptor to power a regulated +/-12Vdc PSU.  
 
-Vp-p | Vrms | 
-|:-:|:----:|
-5   |7.07
-9   |12.7
-12  |16.9
-18  |25.4
-24  |33.9
+Vp-p | Vrms | Voltage drop | Dissipation @ 1A
+|:-:|:----:|:------------:|:----------------
+5   |7.07   |2.07         | 3.1W
+9   |12.7   |3.7          | 5.55W
+12  |16.9   |4.9          | 7.35W
+18  |25.4   |7.4          | 11.1W
+24  |33.9   |9.9          | 14.85W
 
 
 ### Adjusting output voltage
@@ -73,7 +73,7 @@ The regulators *will* need a heatsink or they will shutdown before they can outp
 
 This PSU is designed to be used with Fischer Elektronic heatsinks, but any heatsink below the following will meet disipation requirements up to 1.5 amps.
 
-My preference are these clip-type heatsinks that can be used by both regulators:
+My preference are these clip-type heatsinks that can be used as a joint heatsink by both regulators:
 
 - [SK 574/37,5 SA](https://uk.rs-online.com/web/p/heatsinks/7226906/) - Shorter but extends beyond PCB footprint
 - [SK 575/50 SA](https://uk.rs-online.com/web/p/heatsinks/7226864/)   - Taller but fits within the PCB footprint
