@@ -87,9 +87,9 @@ The table below can be used to determine the appropriate thermal resistance of t
 
 PSU input voltage | PSU Output Current |Heatsink Power Dissipation | Joint Heatsink  | Two Heatsinks (one per regulator)
 |:----------------|:----------------:|:-------------------------:|:---------------:|:---------------------------:|
-12V               |400mA             | 1.9W                      |92K/W            |46K/W
-12V               |750mA             | 3.7W                      |45K/W            |22K/W
-12V               |1A                | 4.9W                      |30K/W            |15K/W
-12V               |1.5A              | 7.4W                      |20K/W            |10K/W
+12Vp-p               |400mA             | 1.9W                      |92K/W            |46K/W
+12Vp-p               |750mA             | 3.7W                      |45K/W            |22K/W
+12Vp-p               |1A                | 4.9W                      |30K/W            |15K/W
+12Vp-p               |1.5A              | 7.4W                      |20K/W            |10K/W
 
 
