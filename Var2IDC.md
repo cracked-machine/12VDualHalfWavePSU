@@ -3,18 +3,35 @@
 
 <img src="AdjustablePSU/doc/AdjustablePSU3D.png" height="300" width="600" >
 
-N.B. *PSU* refers to this PCB circuit, *Wall Adaptor* refers to the AC-AC plug-in wall adaptor.
-If not explicitly stated the example - 12V @ 1.5A PSU output from a 15VAC 3A wall adaptor - will be used.
 
 ### Some notes regarding safety
 
 Unless you want to make the circuit go bye-bye here are some important notes. *I accept no responsibility for damage to equipment, heightened pulse rate, loss of limbs, etc..*
 
-1) Total max output current is limited to *a)* the wall adaptor output current divided by two *b)* the individual current limit of the diodes *c)* the individual current limit of the regulators.
+1) The PSU output current is limited by the wall adaptor used and the components used in the design are limited to using a 3A wall adaptor.
 
-2) The input current from the wall adaptor must *not* exceed absolute max 80% of the voltage rating of the capacitors. 
+2) If sourcing your own capcaitors, you must ensure that wall adaptor voltage does *not* exceed the absolute max 80% of the voltage rating of the capacitors. See the "Adjusting output voltage" section below.
 
 3) Polarity of these components *must* be observed or things will explode.
+
+### Power source (Wall Adaptor)
+
+This design uses a AC-AC wall adaptor as a power source. This is essentially a step down transformer with (hopefully) a fuse. Here is a well-stocked UK supplier.
+
+[www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) 
+
+You can also try Ebay, etc.
+
+While we must allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor is outputing peak-to-peak AC voltage into the PSU circuit. Therefore the actual regulated output voltage of the PSU circuit is Vrms (Vp-p * 1.414), not Vp-p. Therefore, rather than use a 15V wall adaptor (to allow for voltage dropout issues), we can use a 12Vac wall adaptor to power a regulated +/-12Vdc PSU.  
+
+Vp-p | Vrms | 
+|:-:|:----:|
+5   |7.07
+9   |12.7
+12  |16.9
+18  |25.4
+24  |33.9
+
 
 ### Adjusting output voltage
 
@@ -49,15 +66,6 @@ Total Current|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&nbsp;|Ripple|Each Cap|&nbsp;&n
 
 *Capacitors must not exceed their voltage rating! See safety section above.*
 
-### AC-AC Wall Adaptor
-
-As mentioned this PSU uses low voltage AC, so you will need a AC-AC wall adaptor. This is essentially a step down transformer with (hopefully) a fuse. Here is a well-stocked UK supplier.
-
-[www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) 
-
-You can also try Ebay, etc.
-
-To allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor voltage output should be slightly above the voltage needed. The wall adaptor current output *must* be double (+/- rails) the current needed.
 
 ### Heatsinks
 
@@ -65,22 +73,23 @@ The regulators *will* need a heatsink or they will shutdown before they can outp
 
 This PSU is designed to be used with Fischer Elektronic heatsinks, but any heatsink below the following will meet disipation requirements up to 1.5 amps.
 
-The numbers below assume a 3 volt drop ( 12V output using a 15VAC wall adaptor ) and are for guidance only:
-
-PSU Output Current |  Joint Heatsink  | Two Heatsinks (one per regulator)
-|:-----------------|:----------------:|:---------------------------:|
-|400mA             |92K/W             |46K/W
-|750mA             |45K/W             |22K/W
-|1A                |30K/W             |15K/W
-|1.5A              |20K/W             |10K/W
-|2A                |12K/W             |6K/W
-
-
-The PCB has max space for ~50mm width.  Screwholes are M3. 
-
 My preference are these clip-type heatsinks that can be used by both regulators:
 
 - [SK 574/37,5 SA](https://uk.rs-online.com/web/p/heatsinks/7226906/) - Shorter but extends beyond PCB footprint
 - [SK 575/50 SA](https://uk.rs-online.com/web/p/heatsinks/7226864/)   - Taller but fits within the PCB footprint
+
+It is recommended that you clip the ICs to the heatsink before mounting them on the board.
+
+If you want to source alternative heatsinks, the PCB has max space for ~50mm width.  Screwholes are M3.  
+The table below can be used to determine the appropriate thermal resistance of the heatsink.
+
+12v wall adaptor regulating at 12V output only.
+
+PSU input voltage | PSU Output Current |Heatsink Power Dissipation | Joint Heatsink  | Two Heatsinks (one per regulator)
+|:----------------|:----------------:|:-------------------------:|:---------------:|:---------------------------:|
+12V               |400mA             | 1.9W                      |92K/W            |46K/W
+12V               |750mA             | 3.7W                      |45K/W            |22K/W
+12V               |1A                | 4.9W                      |30K/W            |15K/W
+12V               |1.5A              | 7.4W                      |20K/W            |10K/W
 
 
