@@ -21,7 +21,11 @@ This design uses a AC-AC wall adaptor as a power source. This is essentially a s
 [www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) 
 
 You can also try Ebay, etc.
-
+<details>
+  <summary>click me</summary>  
+  some text
+</details>  
+  
 While we must allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor is outputing peak-to-peak AC voltage into the PSU circuit. Therefore the actual regulated output voltage of the PSU circuit is Vrms (Vp-p * 1.414), not Vp-p. Therefore, rather than use a 15V wall adaptor (to allow for voltage dropout issues), we can use a 12Vac wall adaptor to power a regulated +/-12Vdc PSU.  
 
 Vp-p | Vrms | Voltage drop | Dissipation @ 1A
