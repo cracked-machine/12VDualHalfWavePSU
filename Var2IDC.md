@@ -18,13 +18,18 @@ Unless you want to make the circuit go bye-bye here are some important notes. *I
 
 This design uses a AC-AC wall adaptor as a power source. This is essentially a step down transformer with (hopefully) a fuse. Here is a well-stocked UK supplier.
 
+*- The voltage should be the same as your output requirements. 
+- The current should be double your output requirements.*
+
 [www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) 
 
 You can also try Ebay, etc.
-<details>
-  <summary>Details</summary>  
-  
 
+
+<details>
+  <summary>Technical Details</summary>  
+  
+<p>
   
 While we must allow for voltage drop and temp characteristics of the regulator ICs, the wall adaptor is outputing peak-to-peak AC voltage into the PSU circuit. Therefore the actual regulated output voltage of the PSU circuit is Vrms (Vp-p * 1.414), not Vp-p. Therefore, rather than use a 15V wall adaptor (to allow for voltage dropout issues), we can use a 12Vac wall adaptor to power a regulated +/-12Vdc PSU.  
 
@@ -36,6 +41,7 @@ Vp-p | Vrms | Voltage drop | Dissipation @ 1A
 18  |25.4   |7.4          | 11.1W
 24  |33.9   |9.9          | 14.85W
 
+</P>
 </details>  
 
 ### Adjusting output voltage
