@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/GB080220/workspace/circuits/FullWaveVoltageMultiplierPSU/PSUExtensionBoard/PSUExtensionBoard.sch</source>
-    <date>Wednesday, 12 December 2018 at 01:24:44</date>
+    <date>Thursday, 10 January 2019 at 02:59:07</date>
     <tool>Eeschema (5.0.0-3-g5ebb6b6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -31,6 +31,9 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MouserNo">630-HSMS-C150</field>
+      </fields>
       <libsource lib="Device" part="LED" description="LED generic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD9F27A</tstamp>
@@ -39,6 +42,9 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MouserNo">630-HSMS-C150</field>
+      </fields>
       <libsource lib="Device" part="LED" description="LED generic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD9F2C9</tstamp>
@@ -47,6 +53,9 @@
       <value>2K7</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MouserNo">71-CRCW08052K70JNE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD9F333</tstamp>
@@ -55,6 +64,9 @@
       <value>2K7</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MouserNo">71-CRCW08052K70JNE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD9F36E</tstamp>
@@ -143,6 +155,9 @@
       <value>L7805</value>
       <footprint>Package_TO_SOT_SMD:TO-263-3_TabPin2</footprint>
       <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="MouserNo">511-L7805CD2T-TR</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C59EBFB</tstamp>
@@ -151,6 +166,9 @@
       <value>2K7</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MouserNo">71-CRCW08052K70JNE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C73C3F5</tstamp>
@@ -159,6 +177,9 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MouserNo">630-HSMS-C150</field>
+      </fields>
       <libsource lib="Device" part="LED" description="LED generic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C75266F</tstamp>
