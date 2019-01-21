@@ -9,6 +9,6 @@
 
 ### Assembly Instructions
 
-
+![](./AdjustablePSU/doc/Output%20Current%20vs.%20Load%20Regulation%20(per%20rail).svg)
 
 ### Typical Characteristics
