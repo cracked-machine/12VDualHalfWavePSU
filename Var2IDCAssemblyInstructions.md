@@ -10,6 +10,27 @@
 ### Assembly Instructions
 
 
+1. 
+
+![](./AdjustablePSU/doc/AdjustablePSU3D_1.png)
+
+2. 
+
+![](./AdjustablePSU/doc/AdjustablePSU3D_2.png)
+
+3. 
+
+![](./AdjustablePSU/doc/AdjustablePSU3D_3.png)
+
+4. 
+
+![](./AdjustablePSU/doc/AdjustablePSU3D_4.png)
+
+5. 
+
+![](./AdjustablePSU/doc/AdjustablePSU3D_5.png)
+
+
 ### Typical Characteristics
 |     |     |
 |:---:|:---:|
