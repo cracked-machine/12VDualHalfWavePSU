@@ -10,25 +10,37 @@
 ### Assembly Instructions
 
 
-1. 
+1. Solder the capacitors, diodes and resistors. Note the polarity of the diodes and caps!
 
 ![](./AdjustablePSU/doc/AdjustablePSU3D_1.png)
 
-2. 
+2. Solder the headers and final diodes. Note the polarity of the diodes!
 
 ![](./AdjustablePSU/doc/AdjustablePSU3D_2.png)
 
-3. 
+3. Solder the adjustment resistors on the back of the PCB (for esy access)
 
 ![](./AdjustablePSU/doc/AdjustablePSU3D_3.png)
 
-4. 
+4. Attach the two ICs to the heatsink using the clips. This should be done *before* soldering the parts to the PCB: 
+
+- Line up the IC on the heatsink so that the legs are protruding below the edge of the heatsink.
+- Lay the clip on top of the IC so that ridge of the clip is lined up with the notch in the heatsink
+- Apply gentle force to the right angle of the clip until it inserts into the notch. A pair of pliers or a *vice* can be useful.
+
+5. Solder the IC legs to the PCB. Attach the heatsink to the PCB using the screwholes, taking care to keep the screws straight as you  turn them.
 
 ![](./AdjustablePSU/doc/AdjustablePSU3D_4.png)
 
-5. 
+6. Solder the Electrolytic caps. Note the polarity of the caps!
 
 ![](./AdjustablePSU/doc/AdjustablePSU3D_5.png)
+
+### Schematic
+
+For reference:
+
+![](./AdjustablePSU/doc/AdjustablePSU.svg)
 
 
 ### Typical Characteristics
