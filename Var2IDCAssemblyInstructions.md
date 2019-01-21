@@ -2,8 +2,8 @@
 
 ### Specifications
 
-- Max Input voltage: 12VAC @ 3A
-- Max output Voltage: 12VDC @ 1A
+- Max Input voltage: 12VAC (16.9VAC RMS) @ 3A (using AC-AC plug pack)
+- Max output Voltage: +/- 12VDC @ 2A (1A per rail) 
 - Load Regulation: 5% 
 - Ripple: 0.75 Vpp @ 1A
 
