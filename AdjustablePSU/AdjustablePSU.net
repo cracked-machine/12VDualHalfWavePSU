@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/GB080220/workspace/circuits/FullWaveVoltageMultiplierPSU/AdjustablePSU/AdjustablePSU.sch)
-    (date "Thursday, 10 January 2019 at 11:45:52")
+    (date "Wednesday, 06 February 2019 at 10:39:17")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -60,7 +60,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC8F9FB))
@@ -69,7 +69,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC8FA5D))
@@ -78,7 +78,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 647-UVY1E472MHD)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC8FA87))
@@ -87,7 +87,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC8FDA3))
@@ -96,7 +96,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC8FDA9))
@@ -105,7 +105,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC8FDAF))
@@ -141,21 +141,21 @@
       (tstamp 5BC9E029))
     (comp (ref C_NEG6)
       (value 100uF)
-      (footprint Capacitor_SMD:CP_Elec_6.3x3.9)
+      (footprint Capacitor_SMD:CP_Elec_10x12.6)
       (datasheet https://www.mouser.co.uk/datasheet/2/315/ABA0000C1024-947657.pdf)
       (fields
         (field (name MouserNo) 710-865080545012)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BCA81C0))
     (comp (ref C_POS6)
       (value 100uF)
-      (footprint Capacitor_SMD:CP_Elec_6.3x3.9)
+      (footprint Capacitor_SMD:CP_Elec_10x12.6)
       (datasheet https://www.mouser.co.uk/datasheet/2/315/ABA0000C1024-947657.pdf)
       (fields
         (field (name MouserNo) 710-865080545012)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BCA8FFC))
@@ -274,7 +274,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 647-UVY1E472MHD)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BD8B630))
@@ -283,7 +283,7 @@
       (footprint Capacitor_SMD:CP_Elec_18x22)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
-        (field (name Type) 35V))
+        (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
       (libsource (lib Device) (part CP) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BD8E55B))

@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Full-Wave Voltage Multiplier PSU"
+Date "2019-02-06"
+Rev "C"
 Comp ""
-Comment1 ""
+Comment1 "Creates dual (+/-) DC power rails from external AC-AC wall adaptor"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -109,7 +109,7 @@ F 1 "3300uF" H 3492 3081 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 3413 2975 50  0001 C CNN
 F 3 "" H 3375 3125 50  0001 C CNN
 F 4 "667-EEV-FK1E332M" H 3375 3125 50  0001 C CNN "MouserNo"
-F 5 "35V" H 3375 3125 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 3375 3125 50  0001 C CNN "Type"
 	1    3375 3125
 	1    0    0    -1  
 $EndComp
@@ -122,7 +122,7 @@ F 1 "3300uF" H 4042 3081 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 3963 2975 50  0001 C CNN
 F 3 "" H 3925 3125 50  0001 C CNN
 F 4 "667-EEV-FK1E332M" H 3925 3125 50  0001 C CNN "MouserNo"
-F 5 "35V" H 3925 3125 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 3925 3125 50  0001 C CNN "Type"
 	1    3925 3125
 	1    0    0    -1  
 $EndComp
@@ -135,7 +135,7 @@ F 1 "3300uF" H 4542 3081 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 4463 2975 50  0001 C CNN
 F 3 "" H 4425 3125 50  0001 C CNN
 F 4 "647-UVY1E472MHD" H 4425 3125 50  0001 C CNN "MouserNo"
-F 5 "35V" H 4425 3125 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 4425 3125 50  0001 C CNN "Type"
 	1    4425 3125
 	1    0    0    -1  
 $EndComp
@@ -148,7 +148,7 @@ F 1 "3300uF" H 4308 5019 50  0000 R CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 4463 4825 50  0001 C CNN
 F 3 "" H 4425 4975 50  0001 C CNN
 F 4 "667-EEV-FK1E332M" H 4425 4975 50  0001 C CNN "MouserNo"
-F 5 "35V" H 4425 4975 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 4425 4975 50  0001 C CNN "Type"
 	1    4425 4975
 	-1   0    0    1   
 $EndComp
@@ -161,7 +161,7 @@ F 1 "3300uF" H 3808 5019 50  0000 R CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 3963 4825 50  0001 C CNN
 F 3 "" H 3925 4975 50  0001 C CNN
 F 4 "667-EEV-FK1E332M" H 3925 4975 50  0001 C CNN "MouserNo"
-F 5 "35V" H 3925 4975 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 3925 4975 50  0001 C CNN "Type"
 	1    3925 4975
 	-1   0    0    1   
 $EndComp
@@ -174,7 +174,7 @@ F 1 "3300uF" H 3258 5019 50  0000 R CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 3413 4825 50  0001 C CNN
 F 3 "" H 3375 4975 50  0001 C CNN
 F 4 "667-EEV-FK1E332M" H 3375 4975 50  0001 C CNN "MouserNo"
-F 5 "35V" H 3375 4975 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 3375 4975 50  0001 C CNN "Type"
 	1    3375 4975
 	-1   0    0    1   
 $EndComp
@@ -361,10 +361,10 @@ U 1 1 5BCA81C0
 P 7925 5025
 F 0 "C_NEG6" H 7808 5070 50  0000 R CNN
 F 1 "100uF" H 7808 4981 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x3.9" H 7963 4875 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.6" H 7963 4875 50  0001 C CNN
 F 3 "https://www.mouser.co.uk/datasheet/2/315/ABA0000C1024-947657.pdf" H 7925 5025 50  0001 C CNN
 F 4 "710-865080545012" H 7925 5025 50  0001 C CNN "MouserNo"
-F 5 "35V" H 7925 5025 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 7925 5025 50  0001 C CNN "Type"
 	1    7925 5025
 	-1   0    0    1   
 $EndComp
@@ -374,10 +374,10 @@ U 1 1 5BCA8FFC
 P 8250 3325
 F 0 "C_POS6" H 8225 3200 50  0000 R CNN
 F 1 "100uF" H 8200 3500 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x3.9" H 8288 3175 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.6" H 8288 3175 50  0001 C CNN
 F 3 "https://www.mouser.co.uk/datasheet/2/315/ABA0000C1024-947657.pdf" H 8250 3325 50  0001 C CNN
 F 4 "710-865080545012" H 8250 3325 50  0001 C CNN "MouserNo"
-F 5 "35V" H 8250 3325 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 8250 3325 50  0001 C CNN "Type"
 	1    8250 3325
 	-1   0    0    -1  
 $EndComp
@@ -842,7 +842,7 @@ F 1 "3300uF" H 5092 3081 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 5013 2975 50  0001 C CNN
 F 3 "" H 4975 3125 50  0001 C CNN
 F 4 "647-UVY1E472MHD" H 4975 3125 50  0001 C CNN "MouserNo"
-F 5 "35V" H 4975 3125 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 4975 3125 50  0001 C CNN "Type"
 	1    4975 3125
 	1    0    0    -1  
 $EndComp
@@ -873,7 +873,7 @@ F 1 "3300uF" H 4858 5019 50  0000 R CNN
 F 2 "Capacitor_SMD:CP_Elec_18x22" H 5013 4825 50  0001 C CNN
 F 3 "" H 4975 4975 50  0001 C CNN
 F 4 "667-EEV-FK1E332M" H 4975 4975 50  0001 C CNN "MouserNo"
-F 5 "35V" H 4975 4975 50  0001 C CNN "Type"
+F 5 "Voltage: 35V, RippleCurrent: 1.5A" H 4975 4975 50  0001 C CNN "Type"
 	1    4975 4975
 	-1   0    0    1   
 $EndComp
@@ -965,7 +965,7 @@ Connection ~ 4925 6700
 Wire Wire Line
 	4925 6700 4925 6750
 Text Notes 7625 1875 0    50   ~ 0
-RegulatedOutputVoltage and PowerDissipation\n——————————————————————\nR1=120R, R2=390R,   Vout=5.3V,  R1PD=13mW, R2PD=36mW\nR1=120R, R2=750R,  Vout=9.1V\nR1=120R, R2=1K      Vout=11.6V, R1PD=13mW, R2PD=116mW\nR1=150R, R2=2K     Vout=17.9V\nR1=120R, R2=2K2   Vout=24.1V
+RegulatedOutputVoltage and PowerDissipation\n——————————————————————\nR1=120R, R2=390R,   Vout=5.3V,  R1PD=13mW, R2PD=36mW\nR1=120R, R2=750R,  Vout=9.1V\nR1=120R, R2=1K      Vout=11.6V, R1PD=13mW, R2PD=116mW\n\n
 Connection ~ 8725 4675
 Wire Wire Line
 	1025 2825 1425 2825

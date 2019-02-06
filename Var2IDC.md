@@ -1,7 +1,7 @@
 
 ## Bipolar Linear PSU
 
-<img src="AdjustablePSU/doc/AdjustablePSU3D.png" height="300" width="600" >
+<img src="AdjustablePSU/doc/RevC/AdjustablePSU_REVC_POP_3D.png" height="300" width="600" >
 
 
 ### Some notes regarding safety
@@ -10,7 +10,7 @@ Unless you want to make the circuit go bye-bye here are some important notes. *I
 
 1) The PSU output current is limited by the wall adaptor used and the components used in the design are limited to using a 3A wall adaptor.
 
-2) If sourcing your own capcaitors, you must ensure that wall adaptor voltage does *not* exceed the absolute max 80% of the voltage rating of the capacitors. See the "Adjusting output voltage" section below.
+2) If sourcing your own capacitors, you must ensure that wall adaptor voltage does *not* exceed the absolute max 80% of the voltage rating of the capacitors. See the "Adjusting output voltage" section below.
 
 3) Polarity of these components *must* be observed or things will explode.
 
@@ -18,7 +18,7 @@ Unless you want to make the circuit go bye-bye here are some important notes. *I
 
 This design uses a AC-AC wall adaptor as a power source. This is essentially a step down transformer with (hopefully) a fuse. Here is a well-stocked UK supplier. The voltage should be the same as your output requirements. The current should be double your output requirements.
 
-[www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm) 
+[www.poweradaptorsuk.co.uk](https://www.poweradaptorsuk.co.uk/category_s/38.htm)
 
 
 ### Adjusting output voltage
@@ -33,11 +33,11 @@ R1     | R2     | Output Voltage  | Min. Filter Cap Rating
 150R   |2K      | +/-18V  | 32V
 120R   |2K2     | +/-24V  | 35V
 
-The above table is printed - and the specific resistors are highlighted - on the reverse of the PCB. 
+The above table is printed - and the specific resistors are highlighted - on the reverse of the PCB.
 
 ### Selecting filter capacitor values
 
-The 16mm diameter electrlytic capacitors filter noise and ripple from the main supply. There are four filter capacitors per power rail, eight in total.
+The 16mm diameter electrolytic capacitors filter noise and ripple from the main supply. There are four filter capacitors per power rail, eight in total.
 
 The ripple current for each power rail is proportional to the sum of its four capacitors. Therefore, if you have lower current requirements you can select lower capacitor values without sacrificing acceptable filtering. Use the tables below to select the capacitor values. Note, for practical reasons, these have been rounded to common E12/E24 values.
 
@@ -79,5 +79,3 @@ PSU input voltage | PSU Output Current |Heatsink Power Dissipation | Joint Heats
 12Vp-p               |750mA             | 3.7W                      |45K/W            |22K/W
 12Vp-p               |1A                | 4.9W                      |30K/W            |15K/W
 12Vp-p               |1.5A              | 7.4W                      |20K/W            |10K/W
-
-
