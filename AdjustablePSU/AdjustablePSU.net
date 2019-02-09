@@ -1,16 +1,16 @@
 (export (version D)
   (design
     (source /Users/GB080220/workspace/circuits/FullWaveVoltageMultiplierPSU/AdjustablePSU/AdjustablePSU.sch)
-    (date "Wednesday, 06 February 2019 at 10:39:17")
+    (date "Friday, 08 February 2019 at 23:21:11")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title)
+        (title "Full-Wave Voltage Multiplier PSU")
         (company)
-        (rev)
-        (date)
+        (rev C)
+        (date 2019-02-06)
         (source AdjustablePSU.sch)
-        (comment (number 1) (value ""))
+        (comment (number 1) (value "Creates dual (+/-) DC power rails from external AC-AC wall adaptor"))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
         (comment (number 4) (value "")))))
@@ -57,7 +57,7 @@
       (tstamp 5BC8F920))
     (comp (ref C_POS2)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
@@ -66,7 +66,7 @@
       (tstamp 5BC8F9FB))
     (comp (ref C_POS3)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
@@ -75,7 +75,7 @@
       (tstamp 5BC8FA5D))
     (comp (ref C_POS4)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 647-UVY1E472MHD)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
@@ -84,7 +84,7 @@
       (tstamp 5BC8FA87))
     (comp (ref C_NEG4)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
@@ -93,7 +93,7 @@
       (tstamp 5BC8FDA3))
     (comp (ref C_NEG3)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
@@ -102,7 +102,7 @@
       (tstamp 5BC8FDA9))
     (comp (ref C_NEG2)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
@@ -141,7 +141,7 @@
       (tstamp 5BC9E029))
     (comp (ref C_NEG6)
       (value 100uF)
-      (footprint Capacitor_SMD:CP_Elec_10x12.6)
+      (footprint Capacitor_THT:CP_Radial_D6.3mm_P2.50mm)
       (datasheet https://www.mouser.co.uk/datasheet/2/315/ABA0000C1024-947657.pdf)
       (fields
         (field (name MouserNo) 710-865080545012)
@@ -151,7 +151,7 @@
       (tstamp 5BCA81C0))
     (comp (ref C_POS6)
       (value 100uF)
-      (footprint Capacitor_SMD:CP_Elec_10x12.6)
+      (footprint Capacitor_THT:CP_Radial_D6.3mm_P2.50mm)
       (datasheet https://www.mouser.co.uk/datasheet/2/315/ABA0000C1024-947657.pdf)
       (fields
         (field (name MouserNo) 710-865080545012)
@@ -271,7 +271,7 @@
       (tstamp 5BE4656C))
     (comp (ref C_POS5)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 647-UVY1E472MHD)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
@@ -280,7 +280,7 @@
       (tstamp 5BD8B630))
     (comp (ref C_NEG5)
       (value 3300uF)
-      (footprint Capacitor_SMD:CP_Elec_18x22)
+      (footprint Capacitor_THT:CP_Radial_D18.0mm_P7.50mm)
       (fields
         (field (name MouserNo) 667-EEV-FK1E332M)
         (field (name Type) "Voltage: 35V, RippleCurrent: 1.5A"))
