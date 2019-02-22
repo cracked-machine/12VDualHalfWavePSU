@@ -4,4 +4,6 @@
 
 ![IDC 10 cable extension](PSUExtensionBoard/doc/PSUExtensionBoard3D.png)
 
+Note the orientation of the LEDs:
+
 ![LED Position](PSUExtensionBoard/doc/LEDposition.png)
