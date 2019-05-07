@@ -123,7 +123,7 @@
     (add_net "Net-(R_POSREG1-Pad2)")
   )
 
-  (module Heatsink:Heatsink_SheetType_50x7mm_2Fixations (layer F.Cu) (tedit 5A1FFA20) (tstamp 5C66ECDA)
+  (module Heatsink:Heatsink_SheetType_50x7mm_2Fixations locked (layer F.Cu) (tedit 5A1FFA20) (tstamp 5C66ECDA)
     (at 149.352 59.69)
     (descr "Heatsink, Sheet type, 50x7mm, 2 fixations (solder),")
     (tags "Heatsink sheet")
@@ -4080,7 +4080,7 @@
     )
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AAD6F)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AAD6F)
     (at 193.04 60.96)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -4099,7 +4099,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AAD86)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AAD86)
     (at 104.14 60.96)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -4118,7 +4118,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AAD95)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AAD95)
     (at 104.14 147.32)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -4137,7 +4137,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AADA4)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AADA4)
     (at 193.04 147.32)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -4156,7 +4156,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AC769)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AC769)
     (at 158.115 59.69)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -4175,7 +4175,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AC778)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C6AC778)
     (at 140.97 59.69)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")

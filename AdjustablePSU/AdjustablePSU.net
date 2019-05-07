@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /Users/GB080220/workspace/circuits/FullWaveVoltageMultiplierPSU/AdjustablePSU/AdjustablePSU.sch)
-    (date "Friday, 08 February 2019 at 23:21:11")
+    (date "Tuesday, 07 May 2019 at 16:44:29")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Full-Wave Voltage Multiplier PSU")
         (company)
-        (rev C)
-        (date 2019-02-06)
+        (rev D)
+        (date 2019-02-08)
         (source AdjustablePSU.sch)
         (comment (number 1) (value "Creates dual (+/-) DC power rails from external AC-AC wall adaptor"))
         (comment (number 2) (value ""))
