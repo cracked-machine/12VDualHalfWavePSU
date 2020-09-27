@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/GB080220/workspace/circuits/FullWaveVoltageMultiplierPSU/FixedPSU/FixedPSU.sch</source>
-    <date>Monday, 29 October 2018 at 12:57:46</date>
-    <tool>Eeschema (5.0.0-3-g5ebb6b6)</tool>
+    <source>/Users/chrissutton/Projects/HardwareProjects/12VDualHalfWavePSU/FixedPSU/FixedPSU.sch</source>
+    <date>Monday, 28 September 2020 at 00:42:16</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -63,7 +63,7 @@
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC8F9FB</tstamp>
     </comp>
@@ -71,7 +71,7 @@
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC8FA5D</tstamp>
     </comp>
@@ -79,7 +79,7 @@
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC8FA87</tstamp>
     </comp>
@@ -87,7 +87,7 @@
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC8FDA3</tstamp>
     </comp>
@@ -95,7 +95,7 @@
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC8FDA9</tstamp>
     </comp>
@@ -103,7 +103,7 @@
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC8FDAF</tstamp>
     </comp>
@@ -151,7 +151,7 @@
       <value>100uF</value>
       <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCA81C0</tstamp>
     </comp>
@@ -159,7 +159,7 @@
       <value>100uF</value>
       <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCA8FFC</tstamp>
     </comp>
@@ -231,7 +231,7 @@
       <value>LED</value>
       <footprint>LED_THT:LED_D5.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="LED generic"/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF38E0B</tstamp>
     </comp>
@@ -247,7 +247,7 @@
       <value>LED</value>
       <footprint>LED_THT:LED_D5.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="LED generic"/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF710F5</tstamp>
     </comp>
@@ -307,7 +307,7 @@
       </pins>
     </libpart>
     <libpart lib="Device" part="CP">
-      <description>Polarised capacitor</description>
+      <description>Polarized capacitor</description>
       <docs>~</docs>
       <footprints>
         <fp>CP_*</fp>
@@ -340,7 +340,7 @@
       </pins>
     </libpart>
     <libpart lib="Device" part="LED">
-      <description>LED generic</description>
+      <description>Light emitting diode</description>
       <docs>~</docs>
       <footprints>
         <fp>LED*</fp>
