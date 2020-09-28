@@ -26,11 +26,11 @@ It's a rather noisy circuit. This is a limitation with the half-wave rectifier d
 
 The linear regulators help to smooth this output ripple, but they have their limits. As such, to prevent excessive output ripple, it's not recommended that the current draw is taken past ~750mA.
 
-To really push this point home, you can see the limits of the l7912/l7812 linear regulators load regulation past ~750mA.
+To really push this point home, you can see the load regulation limits of the L7912/L7812 linear regulators as they draw more than ~750mA. A deviation higher than 5% is pretty awful.
 
 ![](FixedPSU/Output_Current_vs_Load_Regulation_per_rail.svg)
 
-Let's leave power factor discussions for another day...
+The 4 bulk capacitors per output are probably also causing havoc with the power correction factor. But let's leave power factor discussions for another day...
 
 ---
 
