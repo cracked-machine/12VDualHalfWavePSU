@@ -22,7 +22,15 @@ The power input - which is the secondary output from the mains transformer - is 
 
 It's a rather noisy circuit. This is a limitation with the half-wave rectifier design: The changing AC waveform and reverse bias of the rectifier causes the transformer output inductance to collapse periodically and abruptly, causing a voltage spike at the transformer output. Perhaps a snubber network across the inputs would help. A full-bridge-rectifier or SMPS design with adequate filtering would be a better but ultimately, more expensive solution.
 
+![](FixedPSU/Output_Current_vs_Ripple_per_rail.svg)
+
 The linear regulators help to smooth this output ripple, but they have their limits. As such, to prevent excessive output ripple, it's not recommended that the current draw is taken past ~750mA.
+
+To really push this point home, you can see the limits of the l7912/l7812 linear regulators load regulation past ~750mA.
+
+![](FixedPSU/Output_Current_vs_Load_Regulation_per_rail.svg)
+
+Let's leave power factor discussions for another day...
 
 ---
 
